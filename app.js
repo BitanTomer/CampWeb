@@ -18,7 +18,18 @@ const commentRoutes = require('./routes/comments'),
       indexRoutes = require('./routes/index');
 
 //--------connect to db------
-mongoose.connect('mongodb://localhost:27017/yelp_camp', {useNewUrlParser: true});
+//local connection
+//mongoose.connect('mongodb://localhost:27017/yelp_camp', {useNewUrlParser: true});
+//mongoDB Atlas
+mongoose.connect('mongodb+srv://tomerbit:TbP@sss@cluster0-mapt3.mongodb.net/test?retryWrites=true&w=majority\n',
+    {useNewUrlParser: true,
+        useCreateIndex: true
+    }).then(()=>{
+        console.log("connected to db")
+}).catch(err =>{
+    console.log('Error:', err.message);
+});
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname+ '/public'));
