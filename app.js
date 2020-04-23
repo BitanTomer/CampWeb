@@ -30,6 +30,7 @@ mongoose.connect('mongodb+srv://tomerbit:TbP@sss@cluster0-mapt3.mongodb.net/test
     console.log('Error:', err.message);
 });
 
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname+ '/public'));
@@ -63,6 +64,10 @@ app.use((req, res, next)=>{
 app.use(indexRoutes);
 app.use('/campgrounds', campgroundsRoutes);
 app.use('/campgrounds/:id/comments', commentRoutes);
+
+
+//local listen
+//app.listen(port, () => console.log(`app listening at http://localhost:${port}`));
 
 app.listen(process.env.PORT,process.env.IP, () => console.log(`app listening at http://localhost:`));
 
