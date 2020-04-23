@@ -1,0 +1,72 @@
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('http://i.imgur.com/K3mPv14.jpg');
+    height: 400px;
+    margin-bottom: 3em;
+    border-bottom: solid 0.6px #e5e5e5;
+}
+
+.social{
+    display: inline;
+    font-size: 1.4em;
+}
+
+.head{
+    margin-top: 50px;
+}
+
+.blank{
+    height: 40px;
+}
+
+header h1{
+    color: #4a4a4a;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+header p{
+    color: #2d2d2d;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+footer{
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+    width: 100%;
+    height: 22vh;
+    padding: 30px 0;
+    bottom: 0;
+    left: 0;
+    border-top: solid 0.4px #e5e5e5;
+    position: relative;
+    margin-top: 3em;
+
+}
+
+.img-thumbnail{
+    padding: 3px;
+}
+
+.max-image{
+    height: 167.33px;
+}
+.img-responsive{
+    width: 100%;
+}
+
+.caption-full{
+    padding: 9px;
+}
+
+.delete-form{
+    display: inline;
+}
+
+.card-body{
+    margin-bottom: 40px;
+}
