@@ -5,33 +5,33 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 # Live Demo
 To see the app in action, go to https://yelpcamp--demo.herokuapp.com/
 
-#Features
-Authentication:
-User login with username and password
+# Features
+- Authentication:
+  User login with username and password
 
-Authorization:
-One cannot manage posts without being authenticated
-One cannot edit or delete posts and comments created by other users
+- Authorization:
+  One cannot manage posts without being authenticated
+  One cannot edit or delete posts and comments created by other users
 
-Manage campground posts with basic functionalities:
-Create, edit and delete posts and comments
-Upload campground photos
+- Manage campground posts with basic functionalities:
+  Create, edit and delete posts and comments
+  Upload campground photos
 
-Manage user account with basic functionalities:
-Flash messages responding to users' interaction with the app
-Responsive web design
+- Manage user account with basic functionalities:
+  Flash messages responding to users' interaction with the app
+  Responsive web design
 
-Custom Enhancements
-Update campground photos when editing campgrounds
+- Custom Enhancements
+  Update campground details when editing campgrounds
 
-#Built with
+# Built with
 
-#Front-end
+## Front-end
 javaScript
 ejs
 Bootstrap
 
-#Back-end
+## Back-end
 express
 mongoDB
 mongoose
