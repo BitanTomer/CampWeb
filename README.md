@@ -27,19 +27,21 @@ To see the app in action, go to https://yelpcamp--demo.herokuapp.com/
 # Built with
 
 ## Front-end
-javaScript
-ejs
-Bootstrap
+- Html
+- css
+- JavaScript
+- ejs
+- Bootstrap
 
 ## Back-end
-express
-mongoDB
-mongoose
-passport
-passport-local
-express-session
-method-override
-connect-flash
-Heroku
-
+- Node.js
+- express
+- mongoDB
+- mongoose
+- passport
+- passport-local
+- express-session
+- method-override
+- connect-flash
+- Heroku
 
