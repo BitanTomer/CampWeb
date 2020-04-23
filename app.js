@@ -64,6 +64,6 @@ app.use(indexRoutes);
 app.use('/campgrounds', campgroundsRoutes);
 app.use('/campgrounds/:id/comments', commentRoutes);
 
-app.listen(port, () => console.log(`app listening at http://localhost:${port}`));
+app.listen(process.env.PORT,process.env.IP, () => console.log(`app listening at http://localhost:`));
 
 //pics https://depositphoctos.com/stock-photos/campground.html
