@@ -3,7 +3,7 @@ Campground web application is a website where users can create and review campgr
 This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
 
 # Live Demo
-To see the app in action, go to https://yelpcamp--demo.herokuapp.com/
+To see the app in action, go to https://campweb.herokuapp.com/
 
 # Features
 - Authentication:
